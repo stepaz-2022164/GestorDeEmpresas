@@ -19,3 +19,12 @@ export const checkPassword = async(password, hash) => {
         return error
     }
 }
+
+export const checkUpdate = (data, userId) => {
+    if (userId){
+        if(
+            Object.entries(data).length === 0 
+        ) return false
+        return true
+    }
+}

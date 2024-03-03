@@ -1,6 +1,7 @@
 'use strict'
 
 import Category from './category.model.js'
+import Company from '../company/company.model.js'
 
 export const defaultCategory = async() => {
     try {
@@ -47,7 +48,7 @@ export const editCategory = async(req, res) => {
         let data = req.body
         let categoryId = req.params.id
         let defaultCategory = await Category.findOne({name: 'Default'})
-        if(defaultCategory._id == categoryId) return res.send({message: 'Default category can not be updatede'})
+        if(defaultCategory._id == categoryId) return res.send({message: 'Default category can not be updateded'})
         let updatedCategory = await Category.findOneAndUpdate(
             {_id: categoryId},
             data,
@@ -58,5 +59,23 @@ export const editCategory = async(req, res) => {
     } catch (error) {
         console.error(error)
         return res.status(500).send({message: 'Error updating category'})
+    }
+}
+
+export const deleteCategory = async(req, res) => {
+    try {
+        let categoryId = req.params.id
+        let defaultCategory = await Category.findOne({name: 'Default'})
+        if(defaultCategory._id == categoryId) return res.status(401).send({message: 'Default category can not be deleted'})
+        await Company.updateMany(
+            {category: categoryId},
+            {category: defaultCategory._id}
+        )
+        let deletedCategory = await Category.findOneAndDelete({_id: categoryId})
+        if(!deletedCategory) return res.status(404).send({message: 'Category not found and not deleted'})
+        return res.send({message: 'Category deleted successfully'})
+    } catch (error) {
+        console.error(error)
+        return res.status(500).send({message: 'Error deleting category'})
     }
 }
