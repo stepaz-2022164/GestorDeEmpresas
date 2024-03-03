@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "GestorDeEmpresas",
-    "dateExported": "2024-03-03T07:30:16.301Z",
+    "dateExported": "2024-03-03T23:33:04.316Z",
     "version": "1.1",
     "folders": [
         {
@@ -31,6 +31,13 @@
             "containerId": "d58ef390-87b1-4975-8fd2-bed0d6df0f98",
             "created": "2024-03-03T07:26:15.856Z",
             "sortNum": 40000
+        },
+        {
+            "_id": "8956e103-e463-40bd-8d5f-b95713a4da35",
+            "name": "Report",
+            "containerId": "d58ef390-87b1-4975-8fd2-bed0d6df0f98",
+            "created": "2024-03-03T19:33:31.573Z",
+            "sortNum": 50000
         }
     ],
     "requests": [
@@ -43,7 +50,7 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-03-03T05:29:10.038Z",
-            "modified": "2024-03-03T05:33:13.139Z",
+            "modified": "2024-03-03T23:12:44.270Z",
             "headers": [],
             "params": [],
             "body": {
@@ -60,7 +67,7 @@
                     },
                     {
                         "name": "username",
-                        "value": "stepaz"
+                        "value": "stepaz2"
                     },
                     {
                         "name": "password",
@@ -68,7 +75,7 @@
                     },
                     {
                         "name": "email",
-                        "value": "stepaz@kinal.edu.gt"
+                        "value": "stepaz@kinal.edu.gt2"
                     }
                 ]
             },
@@ -116,11 +123,11 @@
             "method": "POST",
             "sortNum": 30000,
             "created": "2024-03-03T06:10:36.516Z",
-            "modified": "2024-03-03T06:11:45.620Z",
+            "modified": "2024-03-03T22:38:39.186Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0MGJhNjk2ZTJhMzNmM2U4NzZkODIiLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk0NDQxMDksImV4cCI6MTcwOTQ0NzcwOX0.nIkieUk27lswnsgmjGu350-02m8gMUspAz6ouHeUlEw"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk1MDU1MDEsImV4cCI6MTcwOTUxNjMwMX0.ryXPlRNGxhMHDwMpPRpaDYYlq7EZcxrH7gVpWWKVF9Q"
                 }
             ],
             "params": [],
@@ -149,11 +156,11 @@
             "method": "GET",
             "sortNum": 40000,
             "created": "2024-03-03T06:12:36.566Z",
-            "modified": "2024-03-03T06:13:00.947Z",
+            "modified": "2024-03-03T22:38:48.520Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0MGJhNjk2ZTJhMzNmM2U4NzZkODIiLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk0NDQxMDksImV4cCI6MTcwOTQ0NzcwOX0.nIkieUk27lswnsgmjGu350-02m8gMUspAz6ouHeUlEw"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk1MDU1MDEsImV4cCI6MTcwOTUxNjMwMX0.ryXPlRNGxhMHDwMpPRpaDYYlq7EZcxrH7gVpWWKVF9Q"
                 }
             ],
             "params": [],
@@ -164,15 +171,15 @@
             "colId": "74121261-c7da-4b54-80c4-b53ddeb815f5",
             "containerId": "7ece9a92-d06f-4a04-9f63-02ae8ecb2414",
             "name": "edit category",
-            "url": "/category/editCategory/65e413d727195134eb1cf68f",
+            "url": "/category/editCategory/65e50675fcb9525f30e0d213",
             "method": "PUT",
             "sortNum": 50000,
             "created": "2024-03-03T06:13:18.005Z",
-            "modified": "2024-03-03T06:16:33.292Z",
+            "modified": "2024-03-03T23:24:12.430Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0MGJhNjk2ZTJhMzNmM2U4NzZkODIiLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk0NDQxMDksImV4cCI6MTcwOTQ0NzcwOX0.nIkieUk27lswnsgmjGu350-02m8gMUspAz6ouHeUlEw"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJFZHVhcmRvIiwic3VybmFtZSI6IlZlbGEiLCJpYXQiOjE3MDk1MDgyMjksImV4cCI6MTcwOTUxOTAyOX0.aGxi5QLKYqa98yQT0S210XNWnyj-YXfFAYReCgr8WyA"
                 }
             ],
             "params": [],
@@ -201,11 +208,11 @@
             "method": "POST",
             "sortNum": 60000,
             "created": "2024-03-03T07:15:45.394Z",
-            "modified": "2024-03-03T07:18:25.118Z",
+            "modified": "2024-03-03T23:29:14.984Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0MGJhNjk2ZTJhMzNmM2U4NzZkODIiLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk0NTAxNjUsImV4cCI6MTcwOTQ1Mzc2NX0.ZQTvp1NH412xvSFqzQGF_Y-ovCcAk2uMNZlN0cBLXNg"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk1MDU1MDEsImV4cCI6MTcwOTUxNjMwMX0.ryXPlRNGxhMHDwMpPRpaDYYlq7EZcxrH7gVpWWKVF9Q"
                 }
             ],
             "params": [],
@@ -215,11 +222,11 @@
                 "form": [
                     {
                         "name": "name",
-                        "value": "Tigo"
+                        "value": "Claro"
                     },
                     {
                         "name": "email",
-                        "value": "ejemplotigo@gmail.com"
+                        "value": "ejemploclaro@gmail.com"
                     },
                     {
                         "name": "phone",
@@ -231,7 +238,7 @@
                     },
                     {
                         "name": "category",
-                        "value": "65e414a127195134eb1cf694"
+                        "value": "65e413d727195134eb1cf68f"
                     },
                     {
                         "name": "impact",
@@ -249,16 +256,16 @@
             "_id": "a97cf8ad-e26a-4c21-93e5-c575365c8194",
             "colId": "74121261-c7da-4b54-80c4-b53ddeb815f5",
             "containerId": "d58ef390-87b1-4975-8fd2-bed0d6df0f98",
-            "name": "edit category",
-            "url": "/company/editCompany/65e424410ba177e43d7b769d",
+            "name": "edit company",
+            "url": "/company/editCompany/65e4ff5d09a2860255c2e372",
             "method": "PUT",
             "sortNum": 70000,
             "created": "2024-03-03T07:19:11.071Z",
-            "modified": "2024-03-03T07:24:38.267Z",
+            "modified": "2024-03-03T23:30:37.286Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0MGJhNjk2ZTJhMzNmM2U4NzZkODIiLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk0NTA2NDgsImV4cCI6MTcwOTQ1NDI0OH0.kq514O1dXuiRTOH2i3XLWjglSxu6aspAt0yPc0_2YvA"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJFZHVhcmRvIiwic3VybmFtZSI6IlZlbGEiLCJpYXQiOjE3MDk1MDgyMjksImV4cCI6MTcwOTUxOTAyOX0.aGxi5QLKYqa98yQT0S210XNWnyj-YXfFAYReCgr8WyA"
                 }
             ],
             "params": [],
@@ -269,6 +276,10 @@
                     {
                         "name": "phone",
                         "value": "87654321"
+                    },
+                    {
+                        "name": "address",
+                        "value": "Direccion y"
                     }
                 ]
             },
@@ -283,14 +294,243 @@
             "method": "GET",
             "sortNum": 80000,
             "created": "2024-03-03T07:26:40.753Z",
-            "modified": "2024-03-03T07:27:17.781Z",
+            "modified": "2024-03-03T23:24:44.305Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0MGJhNjk2ZTJhMzNmM2U4NzZkODIiLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk0NTA2NDgsImV4cCI6MTcwOTQ1NDI0OH0.kq514O1dXuiRTOH2i3XLWjglSxu6aspAt0yPc0_2YvA"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJFZHVhcmRvIiwic3VybmFtZSI6IlZlbGEiLCJpYXQiOjE3MDk1MDgyMjksImV4cCI6MTcwOTUxOTAyOX0.aGxi5QLKYqa98yQT0S210XNWnyj-YXfFAYReCgr8WyA"
                 }
             ],
             "params": [],
+            "tests": []
+        },
+        {
+            "_id": "513106bd-9ca7-4aaf-aabe-0c66a10b98cb",
+            "colId": "74121261-c7da-4b54-80c4-b53ddeb815f5",
+            "containerId": "350d90a9-aef1-4f43-bf50-21e9c222110a",
+            "name": "get A-Z",
+            "url": "/company/getCompaniesByAtoZ",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-03-03T18:08:51.560Z",
+            "modified": "2024-03-03T23:25:01.133Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJFZHVhcmRvIiwic3VybmFtZSI6IlZlbGEiLCJpYXQiOjE3MDk1MDgyMjksImV4cCI6MTcwOTUxOTAyOX0.aGxi5QLKYqa98yQT0S210XNWnyj-YXfFAYReCgr8WyA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "39c26b0b-ee5e-41bb-b6d3-4bc87c60964f",
+            "colId": "74121261-c7da-4b54-80c4-b53ddeb815f5",
+            "containerId": "350d90a9-aef1-4f43-bf50-21e9c222110a",
+            "name": "get Z-A",
+            "url": "/company/getCompaniesByZtoA",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-03T18:12:48.220Z",
+            "modified": "2024-03-03T23:25:12.990Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJFZHVhcmRvIiwic3VybmFtZSI6IlZlbGEiLCJpYXQiOjE3MDk1MDgyMjksImV4cCI6MTcwOTUxOTAyOX0.aGxi5QLKYqa98yQT0S210XNWnyj-YXfFAYReCgr8WyA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0275df2e-22e8-4f3b-afb9-1c8d1401a440",
+            "colId": "74121261-c7da-4b54-80c4-b53ddeb815f5",
+            "containerId": "350d90a9-aef1-4f43-bf50-21e9c222110a",
+            "name": "get by category",
+            "url": "/company/getCompaniesByCategory",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-03-03T18:34:55.327Z",
+            "modified": "2024-03-03T23:27:17.191Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJFZHVhcmRvIiwic3VybmFtZSI6IlZlbGEiLCJpYXQiOjE3MDk1MDgyMjksImV4cCI6MTcwOTUxOTAyOX0.aGxi5QLKYqa98yQT0S210XNWnyj-YXfFAYReCgr8WyA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "category",
+                        "value": "65e413d727195134eb1cf68f"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "fd93d3af-a48e-4656-86fa-33504a9b5b20",
+            "colId": "74121261-c7da-4b54-80c4-b53ddeb815f5",
+            "containerId": "350d90a9-aef1-4f43-bf50-21e9c222110a",
+            "name": "get by years",
+            "url": "/company/getCompaniesByYears",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2024-03-03T18:45:48.947Z",
+            "modified": "2024-03-03T23:27:57.659Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk1MDU1MDEsImV4cCI6MTcwOTUxNjMwMX0.ryXPlRNGxhMHDwMpPRpaDYYlq7EZcxrH7gVpWWKVF9Q"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "years",
+                        "value": "30"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "02370ab0-83a7-4b9e-85db-fd9cc14b1b3e",
+            "colId": "74121261-c7da-4b54-80c4-b53ddeb815f5",
+            "containerId": "8956e103-e463-40bd-8d5f-b95713a4da35",
+            "name": "generate report",
+            "url": "/company/generateReport",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2024-03-03T19:33:44.418Z",
+            "modified": "2024-03-03T22:49:19.859Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk1MDU1MDEsImV4cCI6MTcwOTUxNjMwMX0.ryXPlRNGxhMHDwMpPRpaDYYlq7EZcxrH7gVpWWKVF9Q"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9773c79b-8757-4252-a1ae-0cceeb4a0c63",
+            "colId": "74121261-c7da-4b54-80c4-b53ddeb815f5",
+            "containerId": "7ece9a92-d06f-4a04-9f63-02ae8ecb2414",
+            "name": "delete category",
+            "url": "/category/deleteCategory/65e50675fcb9525f30e0d213",
+            "method": "DELETE",
+            "sortNum": 140000,
+            "created": "2024-03-03T22:43:18.497Z",
+            "modified": "2024-03-03T23:24:20.973Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk1MDU1MDEsImV4cCI6MTcwOTUxNjMwMX0.ryXPlRNGxhMHDwMpPRpaDYYlq7EZcxrH7gVpWWKVF9Q"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2638e2bd-c43d-4fcd-9813-8e1b017dc2cd",
+            "colId": "74121261-c7da-4b54-80c4-b53ddeb815f5",
+            "containerId": "350d90a9-aef1-4f43-bf50-21e9c222110a",
+            "name": "get by impact",
+            "url": "/company/getCompaniesByImpact",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2024-03-03T22:52:35.140Z",
+            "modified": "2024-03-03T23:27:49.629Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk1MDU1MDEsImV4cCI6MTcwOTUxNjMwMX0.ryXPlRNGxhMHDwMpPRpaDYYlq7EZcxrH7gVpWWKVF9Q"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "impact",
+                        "value": "HIGH"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "995d39ef-45fe-4211-9e0e-b5f79901c78e",
+            "colId": "74121261-c7da-4b54-80c4-b53ddeb815f5",
+            "containerId": "5e6a853c-17ae-4f76-b38c-b86d1795ee66",
+            "name": "update user",
+            "url": "/user/updateUser/65e4fbd7bcc850c344d0ad67",
+            "method": "PUT",
+            "sortNum": 160000,
+            "created": "2024-03-03T23:09:43.913Z",
+            "modified": "2024-03-03T23:14:12.416Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk1MDU1MDEsImV4cCI6MTcwOTUxNjMwMX0.ryXPlRNGxhMHDwMpPRpaDYYlq7EZcxrH7gVpWWKVF9Q"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Eduardo"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Vela"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a3cfa876-879e-4bf8-95e7-6951134c90e4",
+            "colId": "74121261-c7da-4b54-80c4-b53ddeb815f5",
+            "containerId": "5e6a853c-17ae-4f76-b38c-b86d1795ee66",
+            "name": "update user password",
+            "url": "/user/updatePassword/65e4fbd7bcc850c344d0ad67",
+            "method": "PUT",
+            "sortNum": 170000,
+            "created": "2024-03-03T23:15:32.862Z",
+            "modified": "2024-03-03T23:19:02.468Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZmJkN2JjYzg1MGMzNDRkMGFkNjciLCJ1c2VybmFtZSI6InN0ZXBheiIsImVtYWlsIjoic3RlcGF6QGtpbmFsLmVkdS5ndCIsIm5hbWUiOiJTZXJnaW8iLCJzdXJuYW1lIjoiVGVwYXoiLCJpYXQiOjE3MDk1MDU1MDEsImV4cCI6MTcwOTUxNjMwMX0.ryXPlRNGxhMHDwMpPRpaDYYlq7EZcxrH7gVpWWKVF9Q"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "password",
+                        "value": "123"
+                    },
+                    {
+                        "name": "passwordNew",
+                        "value": "12345"
+                    }
+                ]
+            },
             "tests": []
         }
     ],
